@@ -102,7 +102,7 @@ export default function Home() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.15),_transparent_60%)]" />
       <div className="max-w-3xl w-full space-y-8 rounded-3xl bg-white/5 p-10 shadow-[0_40px_80px_-40px_rgba(15,23,42,0.8)] backdrop-blur">
         <div className="text-center space-y-3">
-          <h1 className="text-4xl font-bold tracking-tight">Predicción de perros vs gatos waaaaa</h1>
+          <h1 className="text-4xl font-bold tracking-tight">Predicción de Perros guau guau vs Gatos miau miau</h1>
           <p className="text-slate-300">
             Subir foto y presionar en el boton predecir para saber si es guau guau o miau miau
           </p>
@@ -142,11 +142,11 @@ export default function Home() {
               {isPredicting ? (
                 <>
                   <span className="h-5 w-5 animate-spin rounded-full border-2 border-slate-900 border-t-transparent" />
-                  Analizando imagen...
+                  Analizando imagen
                 </>
               ) : (
                 <>
-                  Obtener predicción oñoooo
+                  Obtener prediccion
                 </>
               )}
             </button>
