@@ -1,13 +1,5 @@
 "use client";
 
-/**
- * Crea una página que carga un modelo de TensorFlow.js exportado desde Keras,
- * ubicado en /public/carpeta_salida/model.json,
- * y muestra un mensaje cuando el modelo se ha cargado correctamente.
- *
- * También incluye un input para subir una imagen y usar el modelo para predecir.
- */
-
 import { useState, useEffect } from "react";
 import * as tf from "@tensorflow/tfjs";
 
