@@ -96,7 +96,7 @@ export default function Home() {
         <div className="text-center space-y-3">
           <h1 className="text-4xl font-bold tracking-tight">Predicción de Perros guau guau vs Gatos miau miau</h1>
           <p className="text-slate-300">
-            Subirr foto y presionar en el boton predecir para saber si es guau guau o miau miau
+            Subir foto y presionar en el boton predecir para saber si es guau guau o miau miau
           </p>
         </div>
 
