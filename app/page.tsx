@@ -168,7 +168,7 @@ export default function Home() {
                 />
               ) : (
                 <div className="flex h-full flex-col items-center justify-center gap-2 text-slate-500">
-                  <p className="text-sm">La imagen aparecerá aquí</p>
+                  <p className="text-sm">La imagen aparecera aquí</p>
                 </div>
               )}
             </div>
